@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+/home/ifpb/PadroesEstruturais/.metadata/.plugins/org.eclipse.jdt.core
+875897938.index
+1713956610.index
+2915685567.index

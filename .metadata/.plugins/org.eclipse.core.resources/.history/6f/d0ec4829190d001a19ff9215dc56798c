@@ -1,0 +1,7 @@
+package model;
+
+public abstract class Item {
+	public void exibir() {}
+	public void adicionarItem(Item i) {}
+	public void remover(Item i) {}
+}
