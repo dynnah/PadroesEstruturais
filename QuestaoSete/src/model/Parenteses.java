@@ -1,7 +1,8 @@
 package model;
 
-public class Parenteses extends NumeroUm {
-	public Parenteses(){
+public class Parenteses extends Decorator {
+	public Parenteses(NumeroUm umNumero){
+		super(umNumero);
 		antes = "(";
 		depois = ")";
 	}

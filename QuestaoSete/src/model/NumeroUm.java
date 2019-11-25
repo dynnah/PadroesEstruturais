@@ -1,10 +1,15 @@
 package model;
 
-public abstract class NumeroUm {
+public class NumeroUm {
 	public String antes;
 	public String depois;
 
-	
+	public NumeroUm() {
+		super();
+		this.antes = "";
+		this.depois = "";
+	}
+
 	public String getAntes() {
 		return antes;
 	}

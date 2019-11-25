@@ -8,12 +8,12 @@ public abstract class Decorator extends NumeroUm {
 	}
 
 	public String getAntes() {
-		return numero.getAntes(); 
+		return numero.getAntes() + antes; 
 
 	}
 
 	public String getDepois() {
-		return numero.getDepois(); 
+		return numero.getDepois() + depois; 
 	}
 
 }
